@@ -1,3 +1,10 @@
+#AWS CLI INtsallation 
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+aws --version
+
+# Terraform INstallation
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 
 wget -O- https://apt.releases.hashicorp.com/gpg | \
@@ -16,4 +23,4 @@ sudo apt update
 
 sudo apt-get install terraform
 
-terraform version
+terraform --version
