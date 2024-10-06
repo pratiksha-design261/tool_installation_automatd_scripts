@@ -20,3 +20,13 @@ minikube start --addons=ingress --cpus=2 --cni=flannel --install-addons=true --k
 
 # Check status
 minikube status
+
+
+# To stop running minikube
+minikube stop
+
+# To delete minikube run
+minikube delete
+
+# To start minkube 
+minikube start
